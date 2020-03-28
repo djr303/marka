@@ -1,4 +1,4 @@
-# markajs
+# marka
 A markdown viewer which allows for document exploration and hot-reloading of markdown files based on a file tree and directory provided via command line
 
 # TODOs
