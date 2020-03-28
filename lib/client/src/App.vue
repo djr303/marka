@@ -1,28 +1,44 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navigation from './components/Navigation.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navigation
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+@import "./scss/_variables.scss";
+
+@font-face {
+  font-family: 'Baloo Thambi 2';
+  src: url(/fonts/BalooThambi2-Medium.ttf);
+}
+
+html, body, #app {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: $bg;
+  color: $font;
+}
+
+body {
+  font-family: 'Baloo Thambi 2', Helvetica, Arial, sans-serif;
+}
+
+a, a:active, a:hover, a:visited {
+  color: $orange;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 </style>
