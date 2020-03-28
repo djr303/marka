@@ -7,4 +7,4 @@ A markdown viewer which allows for document exploration and hot-reloading of mar
 * Directory watcher
 * Markdown parser
 * Valid markdown errors
-* Hotreload
+* Hotreloading
