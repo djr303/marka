@@ -1,6 +1,10 @@
 # markajs
-A markdown viewer which allow for document exploration and hot-reloading of markdown files based on a file tree
+A markdown viewer which allows for document exploration and hot-reloading of markdown files based on a file tree and directory provided via command line
 
 # TODOs
-
-* Project strcuture
+* Client chrome and design, fonts etc
+* File explorer
+* Directory watcher
+* Markdown parser
+* Valid markdown errors
+* Hotreload

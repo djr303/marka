@@ -1,0 +1,49 @@
+{
+  "name": "markajs",
+  "version": "0.0.1",
+  "description": "A markdown viewer which allow for document exploration and hot-reloading of markdown files based on a file tree",
+  "main": "index.js",
+  "scripts": {
+    "client-serve": "vue-cli-service serve",
+    "client-build": "vue-cli-service build",
+    "server-start": "node ./bin/markajs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djr303/markajs.git"
+  },
+  "keywords": [
+    "markdown",
+    "file",
+    "viewer",
+    "explorer",
+    "documents"
+  ],
+  "author": "David Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djr303/markajs/issues"
+  },
+  "homepage": "https://github.com/djr303/markajs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "core-js": "^3.6.4",
+    "express": "^4.17.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
